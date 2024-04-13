@@ -24,6 +24,8 @@ This is a collection of my (@123jimin) personal benchmark on AI assistants.
 - Some prompts may include personality prompts ("you are...").
 - Some prompts may include instructions for AIs to avoid unwanted responses (incorrectly assuming what a user may want).
 
+When an AI assistant uses non-default setup (custom system prompt, RAGs, ...), it will be mentioned.
+
 ## The List
 
 To prevent contamination, I will not provide prompts, or detailed explanations on what is being tested on.
@@ -45,3 +47,8 @@ Tasks that sufficient amount of knowledge retrieval may be enough to resolve it:
 ## Example Tasks
 
 While these are not parts of my benchmark, these serve as examples of what tasks in my benchmark would look like.
+
+| Name | Description | Difficulty |
+|------|-------------|------------|
+| [EvenPerfect](/example/EvenPerfect.md) | Performing logical reasoning about even perfect numbers on a Python code. | Gold |
+| [IdiotSort](/example/IdiotSort.md) | Ientify problems in an absurd sorting algorithm. | Gold |
