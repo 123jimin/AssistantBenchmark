@@ -39,6 +39,7 @@ Difficulty is based on [solved.ac levels](https://solved.ac/problems/level).
 | Clique | Constructing graphs according to simple criteria related to cliques. | Silver |
 | FizzBuzzLen | Constructing a simple algorithm about FizzBuzz with good time complexity. | Platinum |
 | OddPerfect | Performing logical reasoning about odd perfect numbers on a Python code. | Silver |
+| PalindromeFSA | A simple yet tricky question about palindromes and finite state automatas. | Gold |
 
 ## Example Tasks
 
