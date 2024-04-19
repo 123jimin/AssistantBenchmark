@@ -34,15 +34,11 @@ Difficulty is based on [solved.ac levels](https://solved.ac/problems/level).
 
 ### Main List
 
-Tasks that require more logical reasoning than simple knowledge retrieval:
-
-(TBD)
-
-### Sub List
-
-Tasks that sufficient amount of knowledge retrieval may be enough to resolve it:
-
-(TBD)
+| Name | Description | Difficulty |
+|------|-------------|------------|
+| Clique | Constructing graphs according to simple criteria related to cliques. | Silver |
+| FizzBuzzLen | Constructing a simple algorithm about FizzBuzz with good time complexity. | Platinum |
+| OddPerfect | Performing logical reasoning about odd perfect numbers on a Python code. | Silver |
 
 ## Example Tasks
 
