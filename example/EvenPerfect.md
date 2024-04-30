@@ -38,3 +38,4 @@ In specific, the code prints first few Mersenne primes.
   - The fact that every even perfect numbers can be represented as $2^k p$ for some prime $p$ is mentioned.
 - A proof of Euclid-Euler theorem is not required. Providing an incorrect proof will *not* affect the point.
 - An incorrect listing of printed numbers will *not* affect the point.
+- No point is awarded when the AI responds that the statement of the Euclid-Euler theorem is "empirical", or that there could be counter-examples to it.
