@@ -4,6 +4,20 @@
 
 const fs = require("node:fs/promises");
 
+/**
+ * @param {string} prompt
+ * @returns {string}
+ */
+function trimPrompt(prompt) {
+    prompt = prompt.trim();
+
+    if(prompt.startsWith("````text\n") && prompt.endsWith("\n````")) {
+        prompt = prompt.slice(9, -5).trim();
+    }
+
+    return prompt;
+}
+
 module.exports = {
     /**
      * @param {string} file_path
@@ -40,7 +54,7 @@ module.exports = {
         }
 
         if(obj.prompt && obj.answer && obj.criteria) return ({
-            prompt: obj.prompt.trim(),
+            prompt: trimPrompt(obj.prompt),
             answer: obj.answer.trim(),
             criteria: obj.criteria.trim(),
         });
