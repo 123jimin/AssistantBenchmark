@@ -1,0 +1,16 @@
+{
+  "name": "@jiminp/assistant-benchmark",
+  "version": "1.0.0",
+  "description": "Manual scorer tool for benchmarking AI assistants.",
+  "bin": "src/index.js",
+  "scripts": {
+    "bench": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Jimin Park",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "openai": "^4.39.0"
+  }
+}

@@ -49,3 +49,9 @@ While these are not parts of my benchmark, these serve as examples of what tasks
 |------|-------------|------------|
 | [EvenPerfect](/example/EvenPerfect.md) | Performing logical reasoning about even perfect numbers on a Python code. | Gold |
 | [IdiotSort](/example/IdiotSort.md) | Ientify problems in an absurd sorting algorithm. | Gold |
+
+## Running the Test
+
+```text
+pnpm bench -b example/EvenPerfect.md -m mistralai/mistral-7b-instruct:free -c 10
+```
