@@ -6,7 +6,7 @@
 Someone claims that all numbers printed by this code are prime numbers.
 
 ```py
-def foo(x: int) -> int:
+def foo(n: int) -> int:
     return sum(i for i in range(1, n) if n%i == 0)
 
 for n in range(2, 1_000_000, 2):
