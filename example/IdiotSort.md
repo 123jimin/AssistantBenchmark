@@ -81,6 +81,7 @@ The task consists of two parts. Each part takes 0.5 points.
 
 - 0.5 point is awarded only when:
   - The AI correctly identifies the two main problems (no swapping done, original array not modified).
+  - The code does appear to be address the two problems (attempts to actually reorder the array, not copying array arguments).
   - The fix does not affect the time compexity in a significant way. In specific, the three recursive calls need to be preserved.
 - An incorrect code by itself does *not* affect the point.
 - Function signature of `idiot_sort` may be modified.
