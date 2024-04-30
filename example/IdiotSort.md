@@ -3,7 +3,7 @@
 ## Prompt
 
 ````text
-The following code attempts to implement a sorting algorithm.
+The following Python 3 code attempts to implement a sorting algorithm.
 
 ```py
 def idiot_sort(arr: list[int]):
